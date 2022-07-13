@@ -1,0 +1,48 @@
+/* text-align controls where the text is aligned relative to the element the text is currently contained within  */
+/* Font weight controls the boldness or thickness of the text
+The specific font-family won't have access to every numbered font weight so will just pick what's closest and possible */
+
+/* text-decoration:; controls the "decorative lines on text" like underlines and strike-throughs */
+
+/* line-height controls the height of the line itself - not the text size. */
+
+/* letter spacing controls the distance between letters */
+
+/* If you just put down 'Serif' for example, for a font-family the browser will just pick whatever serif font works for it. */
+
+body {
+  background-color: #eaeaea;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  /* text-decoration: underline overline line-through; */
+  text-decoration: underline;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: left;
+
+  /* line-height controls the height of the line itself - not the text size. */
+  line-height: normal;
+
+  /* letter spacing controls the distance between letters */
+  letter-spacing: normal;
+  font-family: Arial, Helvetica, 'Times New Roman', Times, serif sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(151, 10, 151);
+}
