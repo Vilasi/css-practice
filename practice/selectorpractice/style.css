@@ -1,0 +1,40 @@
+body {
+  background-color: #eaeaea;
+}
+
+button {
+  font-size: 1.1rem;
+}
+
+button:hover {
+  position: relative;
+  top: 0.1rem;
+  left: 0.1rem;
+}
+
+#login {
+  border: 2px solid #e9c46a;
+}
+
+#signup {
+  background-color: #264653;
+  border: 2px solid #2a9d8f;
+  color: #f4a261;
+}
+
+/* A comma (,) can be used to select multiple elements at once to apply the same rules. */
+
+h1,
+h2 {
+  color: #2a9d8f;
+}
+
+span {
+  color: #2a9d8f;
+}
+
+.tag {
+  background-color: #e76f51;
+  color: #264653;
+  padding: 0.15rem;
+}

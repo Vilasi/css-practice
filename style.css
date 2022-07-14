@@ -1,19 +1,22 @@
+body {
+  background-color: #898952;
+}
+
 h1 {
-  color: rgba(104, 14, 69, 0.801);
+  color: #37123c;
 }
 
 h2 {
-  color: rgba(27, 184, 223, 0.678);
+  color: #37123c;
 }
 
 button {
-  background-color: rgba(224, 139, 82, 0.623);
+  background-color: #945d5e;
 }
 
 p {
-  color: rgba(104, 14, 69, 0.801);
+  color: #eaeaea;
   /* background-color is used just for changing the background color */
-  background-color: rgba(224, 139, 82, 0.623);
 
   /* "background: ~;" is more powerful and can do more than just change the background color */
   /* background: red; */
