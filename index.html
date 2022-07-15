@@ -84,20 +84,57 @@
       text is currently contained within
     </p>
 
-    <h2>CSS Selector Types</h2>
-    <h3>Descendant Selector</h3>
-    <p class="selector-markup">li a {<br>&emsp;color: blue;<br>}</p>
-    <ul>
-      <li>Selects any elements nested after the previous tag</li>
-      <li>a <span class="selector-markup">child of</span> li</li>
-    </ul>
+    <h2>CSS Combinator Types [they select descendants and stuff like that]</h2>
+    <section class="selector-practice">
+      <h3>Descendant Combinator</h3>
+      <p class="selector-markup">li a {<br>&emsp;color: blue;<br>}</p>
+      <ul>
+        <li>Selects any elements nested after the previous tag</li>
+        <li>a <span class="selector-markup">child of</span> li</li>
+      </ul>
+  </section>
 
-    <h3>
-      comma selector ,
-    </h3>
-    <p class="selector-markup">li, a {<br>&emsp;color: blue;<br>}</p>
-    <ul>
-      <li>Selects li <span class="selector-markup">and</span> a</li>
-    </ul>
+    <section class="selector-practice">
+      <h3>
+      Comma Combinator ( , )
+      </h3>
+      <p class="selector-markup">li, a {<br>&emsp;color: blue;<br>}</p>
+      <ul>
+        <li>Selects li <span class="selector-markup">and</span> a</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Adjacent Combinator ( + )</h3>
+      <p class="selector-markup">li + a {<br>&emsp;color: blue;<br>}</p>
+      <ul>
+        <li>Selects sibling elements which come directly <span class="selector-markup">after</span> the first tag given</li>
+      </ul> 
+    </section>
+
+    <section>
+      <h3>Direct Child Combinator ( &gt; )</h3>
+      <p class="selector-markup">li &gt; a {<br>&emsp;color: blue;<br>}</p>
+      <ul>
+        <li>Selects and element that is only a <span class="selector-markup">direct</span> child of the first tag given</li>
+      </ul> 
+    </section>
+    <section>
+      <h3>Attribute Selector ( input[type=&quot;text&quot;] )</h3>
+      <p class="selector-markup">li[type=&quot;text&quot;]{<br>&emsp;color: blue;<br>}</p>
+      <ul>
+        <li>Selects elements that only have the specified attribute</li>
+      </ul> 
+    </section>
+    <section>
+      <h3>Pseudo Classes ( : )</h3>
+      <p class="selector-markup">li:hover{<br>&emsp;color: blue;<br>}</p>
+      <ul>
+        <li>Pseudo classes modify html elements that are in a specific state</li>
+        <li>:hover - for example - changes the styling when the cursor is hovering over an element.</li>
+      </ul> 
+    </section>
+
+
   </body>
 </html>

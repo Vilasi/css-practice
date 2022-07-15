@@ -54,6 +54,36 @@ span {
   font-size: 0.85rem;
 }
 
+.tag:hover {
+  text-decoration: underline;
+}
+
 section span a {
   color: #8d91c7;
 }
+
+footer a {
+  color: red;
+}
+
+footer > a {
+  color: #3e1929;
+}
+
+input[type='password'] {
+  color: limegreen;
+}
+
+a[href*='./ind'] {
+  color: magenta;
+}
+
+/*******************************************************************************
+Adjacent Combinator Markup Example
+label + input {
+  background-color: rgba(255, 0, 0, 0.288);
+} 
+ h2 + button {
+  font-size: 400px;
+}
+*******************************************************************************/
