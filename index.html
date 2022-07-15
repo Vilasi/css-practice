@@ -33,6 +33,7 @@
         <!--                                                                                                              -->
         <!--                                                                                                              -->
         <h2>Useful Links</h2>
+        
         <ul>
           <li>
             <a
@@ -82,5 +83,21 @@
       text-align controls where the text is aligned relative to the element the
       text is currently contained within
     </p>
+
+    <h2>CSS Selector Types</h2>
+    <h3>Descendant Selector</h3>
+    <p class="selector-markup">li a {<br>&emsp;color: blue;<br>}</p>
+    <ul>
+      <li>Selects any elements nested after the previous tag</li>
+      <li>a <span class="selector-markup">child of</span> li</li>
+    </ul>
+
+    <h3>
+      comma selector ,
+    </h3>
+    <p class="selector-markup">li, a {<br>&emsp;color: blue;<br>}</p>
+    <ul>
+      <li>Selects li <span class="selector-markup">and</span> a</li>
+    </ul>
   </body>
 </html>

@@ -1,9 +1,10 @@
 body {
-  background-color: #eaeaea;
+  background-color: #b0daf1;
 }
 
 button {
   font-size: 1.1rem;
+  background-color: #8d91c7;
 }
 
 button:hover {
@@ -13,20 +14,28 @@ button:hover {
 }
 
 #login {
-  border: 2px solid #e9c46a;
+  border: 2px solid #3e1929;
+  color: #3e1929;
 }
 
 #signup {
-  background-color: #264653;
+  background-color: #3e1929;
   border: 2px solid #2a9d8f;
-  color: #f4a261;
+  color: #8d91c7;
 }
 
 /* A comma (,) can be used to select multiple elements at once to apply the same rules. */
 
 h1,
 h2 {
-  color: #2a9d8f;
+  color: #3e1929;
+}
+
+section.post {
+  border: 0.5px solid black;
+  border-bottom: none;
+  border-left: none;
+  margin-top: 1.5rem;
 }
 
 span {
@@ -34,7 +43,17 @@ span {
 }
 
 .tag {
-  background-color: #e76f51;
-  color: #264653;
+  position: relative;
+  bottom: 0.2rem;
+  background-color: #845a6d;
+
+  color: #eaeaea;
   padding: 0.15rem;
+  border: 2px solid #3e1929;
+  border-radius: 15%;
+  font-size: 0.85rem;
+}
+
+section span a {
+  color: #8d91c7;
 }

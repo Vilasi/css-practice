@@ -21,3 +21,7 @@ p {
   /* "background: ~;" is more powerful and can do more than just change the background color */
   /* background: red; */
 }
+
+.selector-markup {
+  font-weight: bold;
+}
