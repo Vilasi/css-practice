@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Css Practice</title>
+    <title>CSS Practice</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
@@ -65,79 +65,87 @@
         </ul>
       </nav>
     </header>
-    <h1>CSS Practice</h1>
-    <h2>CSS Practice</h2>
-    <h2>CSS Practice</h2>
-
-    <button>Button 1</button>
-    <button>Button 2</button>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-      dolore laboriosam vero deleniti voluptate modi eaque eos? Sunt non,
-      laborum accusantium cum saepe veniam. Distinctio omnis quo veritatis
-      voluptas necessitatibus?
-    </p>
-
-    <p>
-      text-align controls where the text is aligned relative to the element the
-      text is currently contained within
-    </p>
-    
-
-    <h2 class="notes-start">CSS Combinator Types [they select descendants and stuff like that]</h2>
-    <section class="selector-practice">
-      <h3>Descendant Combinator</h3>
-      <p class="selector-markup">li a {<br>&emsp;color: blue;<br>}</p>
-      <ul>
-        <li>Selects any elements nested after the previous tag</li>
-        <li>a <span class="selector-markup">child of</span> li</li>
-      </ul>
-  </section>
-
-    <section class="selector-practice">
-      <h3>
-      Comma Combinator ( , )
-      </h3>
-      <p class="selector-markup">li, a {<br>&emsp;color: blue;<br>}</p>
-      <ul>
-        <li>Selects li <span class="selector-markup">and</span> a</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Adjacent Combinator ( + )</h3>
-      <p class="selector-markup">li + a {<br>&emsp;color: blue;<br>}</p>
-      <ul>
-        <li>Selects sibling elements which come directly <span class="selector-markup">after</span> the first tag given</li>
-      </ul> 
-    </section>
-
-    <section>
-      <h3>Direct Child Combinator ( &gt; )</h3>
-      <p class="selector-markup">li &gt; a {<br>&emsp;color: blue;<br>}</p>
-      <ul>
-        <li>Selects and element that is only a <span class="selector-markup">direct</span> child of the first tag given</li>
-      </ul> 
-    </section>
-    <section>
-      <h3>Attribute Selector ( input[type=&quot;text&quot;] )</h3>
-      <p class="selector-markup">li[type=&quot;text&quot;]{<br>&emsp;color: blue;<br>}</p>
-      <ul>
-        <li>Selects elements that only have the specified attribute</li>
-      </ul> 
-    </section>
-    <section>
-      <h3>Pseudo Classes ( : )</h3>
-      <p class="selector-markup">li:hover{<br>&emsp;color: blue;<br>}</p>
-      <ul>
-        <li>Pseudo classes modify html elements that are in a specific state</li>
-        <li>:hover - for example - changes the styling when the cursor is hovering over an element.</li>
-        <li>:nth-of-type(2n) - set's that every specified ( n ) of the prefixed specified tag selector will be styled. <br />
-        &emsp;:nth-of-type(3n) == every 3rd element is styled, and so on.
-        </li>
-      </ul> 
-    </section>
+    <main>
+      <h1>CSS Practice</h1>
+      <h2>CSS Practice</h2>
+      <h2>CSS Practice</h2>
+      <button>Button 1</button>
+      <button>Button 2</button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        dolore laboriosam vero deleniti voluptate modi eaque eos? Sunt non,
+        laborum accusantium cum saepe veniam. Distinctio omnis quo veritatis
+        voluptas necessitatibus?
+      </p>
+      <p>
+        text-align controls where the text is aligned relative to the element the
+        text is currently contained within
+      </p>
+      
+      <h2 class="notes-start">CSS Combinator Types [they select descendants and stuff like that]</h2>
+      <section class="selector-practice">
+        <h3>Descendant Combinator</h3>
+        <p class="selector-markup">li a {<br>&emsp;color: blue;<br>}</p>
+        <ul>
+          <li>Selects any elements nested after the previous tag</li>
+          <li>a <span class="selector-markup">child of</span> li</li>
+        </ul>
+        </section>
+      <section class="selector-practice">
+        <h3>
+        Comma Combinator ( , )
+        </h3>
+        <p class="selector-markup">li, a {<br>&emsp;color: blue;<br>}</p>
+        <ul>
+          <li>Selects li <span class="selector-markup">and</span> a</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Adjacent Combinator ( + )</h3>
+        <p class="selector-markup">li + a {<br>&emsp;color: blue;<br>}</p>
+        <ul>
+          <li>Selects sibling elements which come directly <span class="selector-markup">after</span> the first tag given</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Direct Child Combinator ( &gt; )</h3>
+        <p class="selector-markup">li &gt; a {<br>&emsp;color: blue;<br>}</p>
+        <ul>
+          <li>Selects and element that is only a <span class="selector-markup">direct</span> child of the first tag given</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Attribute Selector ( input[type=&quot;text&quot;] )</h3>
+        <p class="selector-markup">li[type=&quot;text&quot;]{<br>&emsp;color: blue;<br>}</p>
+        <ul>
+          <li>Selects elements that only have the specified attribute</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Pseudo Classes ( : )</h3>
+        <p class="selector-markup">li:hover{<br>&emsp;color: blue;<br>}</p>
+        <ul>
+          <li>Pseudo classes modify html elements that are in a specific state</li>
+          <li>:hover - for example - changes the styling when the cursor is hovering over an element.</li>
+          <li>:nth-of-type(2n) - set's that every specified ( n ) of the prefixed specified tag selector will be styled. <br />
+          &emsp;:nth-of-type(3n) == every 3rd element is styled, and so on.
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Pseudo Elements</h2>
+        <p>( :: ) Keyword added to a selector that lets you style a particular part of selected elements</p>
+        <ul>
+          <li>::after</li>
+          <li>::before</li>
+          <li>::first-letter</li>
+          <li>::first-line</li>
+          <li>::selection</li>
+        </ul>
+        <p>Visit the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">MDN page to see a full list of pseudo-elements.</a></p>
+      </section>
+    </main>
 
 
   </body>

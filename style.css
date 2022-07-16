@@ -47,3 +47,15 @@ span.selector-markup {
   border-left: none;
   margin-top: 1.5rem;
 }
+
+main a {
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main a:active {
+  filter: invert(100%);
+}
