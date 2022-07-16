@@ -13,6 +13,12 @@ button:hover {
   left: 0.1rem;
 }
 
+/* This inverts the color of the buttons */
+button:active {
+  /* background-color: #8d91c7; */
+  filter: invert(100%);
+}
+
 #login {
   border: 2px solid #3e1929;
   color: #3e1929;
@@ -60,6 +66,12 @@ span {
 
 section span a {
   color: #8d91c7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section span a:hover {
+  text-decoration: underline;
 }
 
 footer a {
@@ -74,8 +86,18 @@ input[type='password'] {
   color: limegreen;
 }
 
+/* 
 a[href*='./ind'] {
   color: magenta;
+} 
+*/
+
+.test {
+  filter: invert(100%);
+}
+
+.post:nth-of-type(2n) {
+  background-color: #6fafd1;
 }
 
 /*******************************************************************************
