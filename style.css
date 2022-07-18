@@ -35,7 +35,8 @@ ul li {
 p.selector-markup {
   font-weight: bold;
   /* color: #945d5e; */
-  color: rgb(139, 34, 34);
+  /* color: rgb(139, 34, 34); */
+  color: rgb(98 22 22);
 }
 
 span.selector-markup {

@@ -34,6 +34,10 @@ button:active {
 
 h1,
 h2 {
+  color: yellow;
+}
+h1,
+h2 {
   color: #3e1929;
 }
 
@@ -100,6 +104,20 @@ a[href*='./ind'] {
   background-color: #6fafd1;
 }
 
+h2::first-letter {
+  font-size: 2rem;
+}
+
+/* Changes stuff about the first line only */
+p::first-line {
+  color: rgb(255, 0, 255);
+}
+
+/* Changes the way the selection background and related stuff looks */
+p::selection {
+  background-color: yellow;
+  color: black;
+}
 /*******************************************************************************
 Adjacent Combinator Markup Example
 label + input {
