@@ -49,6 +49,10 @@ span.selector-markup {
   margin-top: 1.5rem;
 }
 
+.tab {
+  padding-left: 0.8rem;
+}
+
 main a {
   text-decoration: none;
 }

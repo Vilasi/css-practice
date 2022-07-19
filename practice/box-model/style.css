@@ -1,0 +1,45 @@
+body {
+  background-color: bisque;
+}
+
+div {
+  width: 200px;
+  /* This will change the width of the content area */
+
+  height: 200px;
+
+  background-color: #ff686b;
+}
+
+h1 {
+  /* box-sizing: border-box; */
+  color: pink;
+  width: 50%;
+}
+
+#one {
+  background-color: #ff686b;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+  border: solid 2px black;
+
+  box-sizing: border-box;
+  /* This makes it so that the width of our element goes from border-to-border, not just the width of the contents inside the border. */
+}
+
+#two {
+  background-color: aqua;
+  border-color: #ff686b;
+  border-style: inset;
+  border-width: 3px;
+  border-right-color: blanchedalmond;
+}
+
+#three {
+  background-color: blueviolet;
+  border: 3px dotted black;
+  /* This shorthand accomplishes border-style/width/color */
+
+  border-radius: 50%;
+}
