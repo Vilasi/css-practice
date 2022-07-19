@@ -151,6 +151,11 @@
       that style rules are declared matters - things that are declared afterwards (lower) in the chain will take precedence. 
       </p>
       <p>This counts for the HTML Link to CSS stylesheets as well. The links in the head of an html document that come lower in the chain get higher precedence.</p>
+      <ul>
+        <li>Inline-styles have a higher specificity than anything declared in an external document (other than !important) </li>
+        <li>!important wins as the highest specificity. Don't use it it's bad practice.</li>
+        <li>CSS Sections will inherit other </li>
+      </ul>
 
       <h3>Useful Links</h3>
       <ul>

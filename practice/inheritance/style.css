@@ -1,0 +1,21 @@
+body {
+  color: purple;
+}
+/* Everything that is a child or grandchild(ren) will inherit this color - 
+/* Unless the later children elements are set specifically 
+*/
+
+h1 {
+  color: blue;
+}
+
+/* Certain elements don't inherit things by default */
+/* Form Elements don't - except labels */
+form {
+  color: lime;
+}
+
+/* color: "inherit"; sets an uninherited element to inherit a styling rule from the parent/grandparent  */
+button {
+  color: inherit;
+}
