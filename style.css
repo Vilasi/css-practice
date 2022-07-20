@@ -1,7 +1,7 @@
 body {
+  box-sizing: border-box;
   background-color: #898952;
-  border: solid black 2px;
-  padding: 1rem;
+  /* border: solid black 2px; */
 }
 
 h1 {
@@ -11,9 +11,9 @@ h1 {
 h2 {
   color: #37123c;
 }
-section,
-h2.notes-start {
+section {
   border-bottom: 0.5px solid black;
+  border-left: 1rem #898952 solid;
 }
 
 button {
@@ -63,4 +63,9 @@ main a:hover {
 
 main a:active {
   filter: invert(100%);
+}
+
+img {
+  max-width: 60%;
+  height: auto;
 }

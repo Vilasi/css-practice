@@ -1,6 +1,9 @@
 body {
   background-color: bisque;
+  margin: 0;
+  /* This gets rid of that default body margin */
 }
+/* By default the body element has some default margin */
 
 div {
   width: 200px;
@@ -14,7 +17,16 @@ div {
 h1 {
   /* box-sizing: border-box; */
   color: pink;
+  background-color: rgb(194, 157, 113);
   width: 50%;
+  padding: 30px 10px 30px 10px;
+  margin: 0;
+}
+/* By default an h1 starts with some margin */
+
+span {
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
 #one {
@@ -26,6 +38,8 @@ h1 {
 
   box-sizing: border-box;
   /* This makes it so that the width of our element goes from border-to-border, not just the width of the contents inside the border. */
+
+  margin: 1rem 0 1rem 0;
 }
 
 #two {
@@ -34,6 +48,7 @@ h1 {
   border-style: inset;
   border-width: 3px;
   border-right-color: blanchedalmond;
+  margin: 0px 35rem 0px;
 }
 
 #three {
@@ -42,4 +57,35 @@ h1 {
   /* This shorthand accomplishes border-style/width/color */
 
   border-radius: 50%;
+
+  margin: 2rem 4rem 4rem 5rem;
 }
+
+/* Top-Bottom-Left-Right */
+button {
+  padding: 20px;
+}
+
+/* Top-Bottom Right-Left */
+button {
+  padding: 10px 20px;
+}
+
+/* Top Right-Left Bottom */
+button {
+  padding: 10px 20px 10px;
+}
+
+/* Top Right Left Bottom */
+/* Clockwise */
+button {
+  padding: 10px 20px 10px 20px;
+}
+
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/***************************** These Shorthands Work for Margin Too ******************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
