@@ -1,0 +1,48 @@
+/* h1 {
+  display: inline;
+  background-color: palegoldenrod;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+
+span {
+  display: block;
+  background-color: paleturquoise;
+  border: 1px solid black;
+} */
+
+h1 {
+  background-color: aquamarine;
+  width: 50%;
+  padding: 50px;
+  margin: 60px;
+}
+/* Margin padding width and height will all be respected on a block level element. */
+
+span {
+  background-color: rgb(201, 68, 50);
+  color: white;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 50px;
+
+  width: 500px;
+}
+/* Inline elements cannot have their width changed */
+/* Padding won't push things away with inline elements. 
+    It will just cover up things around it. */
+/* Margin - will be respected on the single inline line horizontally, 
+    and vertical margin won't be respected at all. */
+
+div {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: olivedrab;
+  border: 1px solid black;
+}
+/* If these were set tp /inline/ they wouldn't appear at all. 
+    This is because width and height are not respected for inline elements. */
+/* These divs must be set to inline block - 
+    this way width and heigh and margin and padding are respected */
