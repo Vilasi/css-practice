@@ -31,7 +31,7 @@ ul li {
   color: #eaeaea;
 }
 
-p.selector-markup {
+.selector-markup {
   font-weight: bold;
   /* color: #945d5e; */
   /* color: rgb(139, 34, 34); */
@@ -67,4 +67,10 @@ main a:active {
 img {
   max-width: 60%;
   height: auto;
+  /* padding-top: 2rem; */
+}
+
+.img-headings {
+  padding-top: 2rem;
+  font-size: x-large;
 }

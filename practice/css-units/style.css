@@ -1,0 +1,14 @@
+section {
+  background-color: #6d6875;
+  width: 800px;
+  height: 800px;
+}
+
+div {
+  background: rgb(153, 44, 16);
+  height: 50%;
+  width: 50%;
+  /* This div is a child of the above section.
+     So it will be 50% of the section's width/height
+  */
+}
