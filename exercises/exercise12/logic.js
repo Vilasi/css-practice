@@ -1,4 +1,4 @@
-// This script is just a joke and I'm saving it for future lols
+// This file is just a joke and I'm saving it for future lols
 
 let string = '';
 
