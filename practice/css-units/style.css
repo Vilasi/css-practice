@@ -12,3 +12,52 @@ div {
      So it will be 50% of the section's width/height
   */
 }
+article {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+
+  /* This will make it so that the entire line height is 200% 
+     of the element's (the h1) font-size line-height. 
+     In this case, this makes it so that the line-height is 80px.  
+  */
+  line-height: 200%;
+}
+
+h2 {
+  font-size: 2em;
+  /* Twice the computed font size of the article element (the parent element of the h2) */
+  /* If a font size is give for the article element, the h2 will be twice whatever that is */
+
+  margin-left: 1em;
+  /* This margin will be whatever the current computed font-size of the current element is */
+  /* So this 1em == {Parent element FS(article, 20px), h2 font-size(2em) - 40px. This element has a left margin of 40px;} */
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+/* button {
+  font-size: 30px;
+  padding: 0 30px;
+  border-radius: 15px;
+} */
+/* This button DOES NOT scale */
+
+button {
+  font-size: 5em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  /* This does scale; The padding and border radius is 1em 
+    (with the current font size being 5em) - and the border radius is half of that  */
+
+  /* The 1em font-size of the button is 20px - as inherited by <article> */
+}
