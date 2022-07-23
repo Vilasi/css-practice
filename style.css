@@ -1,10 +1,12 @@
 body {
   box-sizing: border-box;
   background-color: #898952;
+  font-size: 20px;
 }
 
 h1 {
   color: #37123c;
+  /* font-size: 1rem; */
 }
 
 h2 {
