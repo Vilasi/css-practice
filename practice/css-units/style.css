@@ -20,11 +20,11 @@ h1 {
   font-size: 40px;
   border: 1px solid black;
 
+  line-height: 200%;
   /* This will make it so that the entire line height is 200% 
      of the element's (the h1) font-size line-height. 
      In this case, this makes it so that the line-height is 80px.  
   */
-  line-height: 200%;
 }
 
 h2 {
@@ -49,15 +49,15 @@ p {
   font-size: 30px;
   padding: 0 30px;
   border-radius: 15px;
-} */
-/* This button DOES NOT scale */
+   This button DOES NOT scale 
+}*/
 
-button {
+/* button {
   font-size: 5em;
   padding: 0 1em;
   border-radius: 0.5em;
   /* This does scale; The padding and border radius is 1em 
     (with the current font size being 5em) - and the border radius is half of that  */
 
-  /* The 1em font-size of the button is 20px - as inherited by <article> */
-}
+/* The 1em font-size of the button is 20px - as inherited by <article> 
+} */
