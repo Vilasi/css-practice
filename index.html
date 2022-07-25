@@ -208,6 +208,26 @@
       <section>
         <h2>Misc. Useful CSS Properties</h2>
 
+        <h3 class="subheadings">position</h3>
+
+        <h4>static</h4>
+        <p>All elements have a default value of static</p>
+
+        <h4>relative</h4>
+        <p>This will keep the element where it would normally be placed.</p>
+        <ul>
+          <li>The element can be moved <em>relative</em> to itself</li>
+          <li>The space where the element should be is still reserved as if the element was there</li>
+        </ul>
+
+        <h4>absolute</h4>
+        <p>Removes the element from the normal flow of the document</p>
+        <ul>
+          <li>No space will be reserved for the element</li>
+          <li>If the element is not nested within a positioned element, it will be absolutely positioned relative to the body element (ie the document as such) <br>
+            "Positioned" means the parent/any ancestor element has a position other than static</li>
+        </ul>
+
       </section>
     </main>
 

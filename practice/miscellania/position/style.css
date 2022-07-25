@@ -1,0 +1,35 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #3d405b;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+
+.middle {
+  background-color: #81b29a;
+}
+
+#static .middle {
+  position: static;
+  top: 400px;
+  /* Since this is set to static, declaring a top move will do nothing. */
+  /* It's as if there's no top at all. no top at all.. no top at allll.... */
+}
+
+#relative .middle {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#absolute {
+  position: relative;
+}
+
+#absolute .middle {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

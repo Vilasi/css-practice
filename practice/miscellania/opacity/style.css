@@ -1,0 +1,21 @@
+section {
+  width: 500px;
+  height: 500px;
+  background-color: magenta;
+}
+
+#rgba {
+  width: 50%;
+  height: 50%;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  /* For the hexadecimal colors, add an extra 2 digit hex (00-FF) at the end for the alpha channel */
+}
+
+#opacity {
+  width: 50%;
+  height: 50%;
+
+  background-color: yellow;
+  opacity: 0.5;
+}
