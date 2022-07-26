@@ -33,3 +33,20 @@ div {
   top: 50px;
   left: 50px;
 }
+
+#fixed .middle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#sticky {
+  position: sticky;
+  top: 0px;
+}
+/* #sticky .middle {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -10px;
+  overflow: hidden;
+} */
