@@ -60,5 +60,9 @@ section:nth-of-type(2) h1:nth-child(2) {
   transform: skewX(30deg);
 }
 section:nth-of-type(2) h1:nth-child(3) {
-  transform: rotate(45deg) translate(30px, 30px) scale(2) skew(5deg);
+  transform: rotate(0.5turn) translate(30px, 30px) scale(2) skew(5deg);
+}
+
+section:nth-of-type(2) {
+  transform: scale(0.5);
 }
