@@ -1,0 +1,40 @@
+body {
+  background: #eaeaea;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 500;
+}
+
+/* For styling the button (which serves as a link) */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: #aaaaaa69;
+}
+
+button:hover {
+  background-color: #aa5556;
+}
+
+button:active {
+  position: relative;
+  top: 3.5px;
+  background-color: #a9e4ef;
+}
