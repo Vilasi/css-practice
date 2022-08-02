@@ -14,6 +14,11 @@ body {
   background-color: #eaeaea;
 }
 
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 h1 {
   text-align: center;
   font-weight: normal;
@@ -60,11 +65,15 @@ a:visited {
   margin-bottom: 0.5rem;
 } */
 
+ul {
+  max-width: 20%;
+}
+
 li {
   padding: 1rem;
   list-style-type: none;
   border: 2px solid black;
-  width: 9%;
+  width: 80%;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
