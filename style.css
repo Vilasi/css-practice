@@ -101,3 +101,19 @@ button:active {
   top: 3.5px;
   background-color: #a9e4ef;
 }
+
+.button-box {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-box button {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+
+  max-width: fit-content;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
