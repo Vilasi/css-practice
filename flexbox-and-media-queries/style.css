@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+/*
+==========================================================================
+
+                            Flexbox Practice
+
+========================================================================== 
+*/
+
+#container {
+  display: flex;
+  /* This turns on flexbox for this container */
+
+  /*
+==========================================================================
+
+                            flex-direction
+
+                            justify-content
+
+                            main axis
+
+========================================================================== 
+*/
+
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  /* Direction of items on the main axis */
+  /* If the items in a container are too large,                                          */
+  /* Column and other flex properties will shrink the items until they fit the container */
+
+  justify-content: flex-end;
+  /* Content ends at the right side of the container */
+
+  justify-content: center;
+  /* Centers the content on the (main) axis) */
+
+  justify-content: space-between;
+  /* Takes all of the extra space and distributes it between the elements - not on the far left and right of the container though */
+
+  justify-content: space-around;
+  /* Same amount of space on the left and right of every individual item */
+
+  justify-content: space-evenly;
+  /* Exactly same amount of space between every item and between the left and right side of the container */
+
+  /**********************************************************************************************************************************/
+
+  /* Random Practice */
+  flex-direction: row-reverse;
+  /* This makes it so the row is reversed and starts on the right */
+  justify-content: flex-end;
+  /* Then, since row-reverse makes the items start from the right of the main axis
+        the flex-end moves the items to the left portion of the main axis.
+  */
+
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+
+  /* ====================================================================================================================================================  */
+
+  background-color: #003049;
+  width: 90%;
+  height: 1500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+}

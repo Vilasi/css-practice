@@ -33,6 +33,11 @@ ul li {
   color: #eaeaea;
 }
 
+.nested-lists > li {
+  margin-bottom: 1rem;
+  color: black;
+}
+
 .selector-markup {
   font-weight: bold;
   /* color: #945d5e; */
