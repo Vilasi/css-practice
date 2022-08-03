@@ -71,8 +71,7 @@
       <h1>CSS Practice</h1>
       <h2>CSS Practice</h2>
       <h2>CSS Practice</h2>
-      <button>Button 1</button>
-      <button>Button 2</button>
+      
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
         dolore laboriosam vero deleniti voluptate modi eaque eos? Sunt non,
@@ -87,45 +86,45 @@
       <h2 class="notes-start">CSS Combinator Types [they select descendants and stuff like that]</h2>
       <section >
         <h3>Descendant Combinator</h3>
-        <p class="selector-markup">li a {<br>&emsp;color: blue;<br>}</p>
+        <p class="sm">li a {<br>&emsp;color: blue;<br>}</p>
         <ul>
           <li>Selects any elements nested after the previous tag</li>
-          <li>a <span class="selector-markup">child of</span> li</li>
+          <li>a <span class="sm">child of</span> li</li>
         </ul>
       </section>
       <section >
         <h3>
         Comma Combinator ( , )
         </h3>
-        <p class="selector-markup">li, a {<br>&emsp;color: blue;<br>}</p>
+        <p class="sm">li, a {<br>&emsp;color: blue;<br>}</p>
         <ul>
-          <li>Selects li <span class="selector-markup">and</span> a</li>
+          <li>Selects li <span class="sm">and</span> a</li>
         </ul>
       </section>
       <section>
         <h3>Adjacent Combinator ( + )</h3>
-        <p class="selector-markup">li + a {<br>&emsp;color: blue;<br>}</p>
+        <p class="sm">li + a {<br>&emsp;color: blue;<br>}</p>
         <ul>
-          <li>Selects sibling elements which come directly <span class="selector-markup">after</span> the first tag given</li>
+          <li>Selects sibling elements which come directly <span class="sm">after</span> the first tag given</li>
         </ul>
       </section>
       <section>
         <h3>Direct Child Combinator ( &gt; )</h3>
-        <p class="selector-markup">li &gt; a {<br>&emsp;color: blue;<br>}</p>
+        <p class="sm">li &gt; a {<br>&emsp;color: blue;<br>}</p>
         <ul>
-          <li>Selects and element that is only a <span class="selector-markup">direct</span> child of the first tag given</li>
+          <li>Selects and element that is only a <span class="sm">direct</span> child of the first tag given</li>
         </ul>
       </section>
       <section>
         <h3>Attribute Selector ( input[type=&quot;text&quot;] )</h3>
-        <p class="selector-markup">li[type=&quot;text&quot;]{<br>&emsp;color: blue;<br>}</p>
+        <p class="sm">li[type=&quot;text&quot;]{<br>&emsp;color: blue;<br>}</p>
         <ul>
           <li>Selects elements that only have the specified attribute</li>
         </ul>
       </section>
       <section>
         <h3>Pseudo Classes ( : )</h3>
-        <p class="selector-markup">li:hover{<br>&emsp;color: blue;<br>}</p>
+        <p class="sm">li:hover{<br>&emsp;color: blue;<br>}</p>
         <ul>
           <li>Pseudo classes modify html elements that are in a specific state</li>
           <li>:hover - for example - changes the styling when the cursor is hovering over an element.</li>
@@ -315,8 +314,12 @@
       <section>
         <h2>Flexbox</h2>
 
-        <p>CSS Tricks - A fantastic Website for Flexbox and other CSS Technologies</p>
-        <button id="css-tricks">CSS Tricks.com</button>
+        <div class="button-box">
+          <p>CSS Tricks - A fantastic Website for Flexbox and other CSS Technologies <button id="css-tricks">CSS Tricks.com</button></p>
+          <p>MDN Docs for Flexbox <button id="mdn-flexbox">MDN Flexbox Docs</button></p>
+          
+        </div>
+        
         <p>Withing a flexbox container, there are two axes (+)
 
           <ul class="nested-lists">
@@ -332,32 +335,57 @@
 
           <h3>Flexbox Properties</h3>
           <ul class="nested-lists">
-            <li><span class="selector-markup">flex-direction</span> 
+            <li><span class="sm">flex-direction</span> 
               <ul>
                 <li>Changes the default direction that flex items are displayed</li>
-                <li><span class="selector-markup">flex-direction: row;</span> Default value</li>
-                <li><span class="selector-markup">flex-direction: row-reverse;</span> displays items from right to left</li>
-                <li><span class="selector-markup">flex-direction: column;</span> Displays the items as a vertical column - first item starts at the top.</li>
+                <li><span class="sm">flex-direction: row;</span> Default value</li>
+                <li><span class="sm">flex-direction: row-reverse;</span> displays items from right to left</li>
+                <li><span class="sm">flex-direction: column;</span> Displays the items as a vertical column - first item starts at the top. This flips the main axis so that it's vertical.</li>
               </ul>
             </li>
 
-            <li><span class="selector-markup">justify-content</span>
+            <li><span class="sm">justify-content</span>
               <ul>
-                <li>How the items are distributed along the main (x) axis</li>
-                <li><span class="selector-markup">justify-content: flex-start;</span> Default Value, starts the items from wherever the axis starts (as defined by flex-direction)</li>
-                <li><span class="selector-markup">justify-content: flex-end;</span> The content moves ends flush with the right side of the container</li>
-                <li><span class="selector-markup">justify-content: center;</span> Centers the content on the x (main) axis)</li>
-                <li><span class="selector-markup">justify-content: space-between;</span> Takes all of the extra space and distributes in between the container's items.
+                <li>How the items are distributed along the main (default - horizontal) axis</li>
+                <li><span class="sm">justify-content: flex-start;</span> Default Value, starts the items from wherever the axis starts (as defined by flex-direction)</li>
+                <li><span class="sm">justify-content: flex-end;</span> The content moves ends flush with the right side of the container</li>
+                <li><span class="sm">justify-content: center;</span> Centers the content on the main axis</li>
+                <li><span class="sm">justify-content: space-between;</span> Takes all of the extra space and distributes in between the container's items.
                   <ul>
                     <li>But NOT on the outside edges</li>
                   </ul>
                 </li>
-                <li><span class="selector-markup">justify-content: space-around;</span> Gives every element the same about of space on the left and right of it</li>
-                <li><span class="selector-markup">justify-content: space-evenly;</span> Gives exactly the same amount of space between elements - including to the left and right side of the container</li>
+                <li><span class="sm">justify-content: space-around;</span> Gives every element the same about of space on the left and right of it</li>
+                <li><span class="sm">justify-content: space-evenly;</span> Gives exactly the same amount of space between elements - including to the left and right side of the container</li>
+              </ul>           
+            </li>
 
+            <li><span class="sm">flex-wrap</span>
+              <ul>
+                <li>Determines whether items wrap to the next line or not
+                  <ul>
+                    <li>flex-wrap moves things along the cross axis</li>
+                  </ul>
+                </li>
+                
+                <li><span class="sm">flex-wrap: wrap;</span> Lets the content wrap to the next line (Or the next column if the flex-direction is column/column-reverse)</li>
+                <li><span class="sm">flex-wrap: wrap-reverse</span>This reverses the orientation of the cross axis so that things wrap from the other end and in the opposite direction.</li>
               </ul>
-            
-            
+            </li>
+
+            <li>
+              <span class="sm">align-items</span>
+              <ul>
+                <li>Aligns flex items (container contents) along the cross-axis</li>
+                <li><span class="sm">align-items: flex-start;</span> Aligns items to the beginning of the cross axis</li>
+                <li><span class="sm">align-items: flex-end</span> Aligns items to the end of the cross axis</li>
+                <li><span class="sm">align-items: center;</span> Aligns Items to the center of the cross (default vertical) axis</li>
+                <li><span class="sm">align-items: baseline;</span> Aligns items to the bottom of the text inside the containers items
+                  <ul>
+                   <li>Think of baseline as drawing a straight horizontal line through the bottom of all the letters on the first line of text - and that is what everything is aligned to.</li>
+                  </ul>
+                </li>
+              </ul>
             </li>
           </ul>
         </p>
@@ -365,6 +393,7 @@
         
       </section>
     </main>
+    
 
 
     <script src="./app.js"></script>

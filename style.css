@@ -38,14 +38,14 @@ ul li {
   color: black;
 }
 
-.selector-markup {
+.sm {
   font-weight: bold;
   /* color: #945d5e; */
   /* color: rgb(139, 34, 34); */
   color: rgb(98 22 22);
 }
 
-span.selector-markup {
+span.sm {
   font-weight: bold;
 }
 
