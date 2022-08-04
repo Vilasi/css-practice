@@ -97,16 +97,62 @@ h1 {
   /* flex-wrap: wrap-reverse; */
   /* This flips the direction of the cross axis - so the items end up on the top of the container */
 
+  /* 
+  ==========================================================================
+  
+                                  align-content 
+                                   (cross axis)  
+  
+  ==========================================================================
+  */
+
+  /* 
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: space-between; 
+  */
 
+  /* Column Layout ^
+  ====================================================================================================================================================================== */
   background-color: #003049;
   width: 90%;
   height: 500px;
   margin: 0 auto;
   border: 5px solid #003049;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  /* align-items: flex-end; */
+}
+
+/* 
+====================================================================================
+align-self: aligns items themselves within a flex container (along the cross axis)
+====================================================================================
+*/
+
+div:nth-of-type(1) {
+  align-self: flex-start;
+}
+
+div:nth-of-type(2) {
+  align-self: center;
+}
+
+div:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+div:nth-of-type(4) {
+  align-self: center;
+}
+
+div:nth-of-type(5) {
+  align-self: flex-start;
 }
 
 /* 

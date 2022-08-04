@@ -27,8 +27,8 @@
         </ul>
         <hr />
         <!--                                                                                                              -->
-        <!--                                                 Useful Links                                                 -->
         <!--                                                                                                              -->
+        <!--                                                 Useful Links                                                 -->
         <!--                                                                                                              -->
         <!--                                                                                                              -->
         <!--                                                                                                              -->
@@ -315,15 +315,15 @@
 <!-- ========================================================================== -->
 <!-- ========================================================================== -->
 <!-- ========================================================================== -->
-<!-- =                                                                          =-->
-<!-- =                                                                          =-->
-<!-- =                                                                            =-->
-<!-- =                                                                              =-->
-<!-- =                               Flexbox                                           =-->
-<!-- =                                                                              =-->
-<!-- =                                                                            =-->
-<!-- =                                                                          =-->
-<!-- =                                                                          =-->
+ <!--=                                                                           =-->
+   <!--=                                                                           =-->
+     <!--=                                                                           =-->
+       <!--=                                 ----------                                =-->
+         <!--=                               | Flexbox |                                  =-->
+       <!--=                                 ----------                                =-->
+      <!--=                                                                          =-->
+    <!--=                                                                          =-->
+  <!--=                                                                          =-->
 <!-- ========================================================================== -->
 <!-- ========================================================================== -->
 <!-- ========================================================================== -->
@@ -341,14 +341,14 @@
         <p>Withing a flexbox container, there are two axes (+)
 
           <ul class="nested-lists">
-            <li>Main Axis: X     --
+            <li>Main Axis: (Default Horizontal)     --
               <ul>
                 <li>
-                  By default, the main axis (X Axis) aligns items from left to right
+                  By default, the main axis aligns items from left to right
                 </li>
               </ul>
             </li>
-            <li>Cross Axis: Y     |</li>
+            <li>Cross Axis: (Default Vertical)     |</li>
           </ul>
 
           <h3>Flexbox Properties</h3>
@@ -405,6 +405,50 @@
                 </li>
               </ul>
             </li>
+
+            <li>
+              <span class="sm">align-content</span>
+              <ul>
+                <li>Controls or distributes items along the cross axis - but only if there are multiple rows or columns</li>
+                <ul>
+                  <li>Think of it as creating space between the rows, or space between the columns</li>
+                  <li>Acts like justify-content does on the main axis - but on the cross axis</li>
+                </ul>
+                <li class="sm">align-content: space-between</li>
+                <ul>
+                  <li>Equal space between the columns/rows - no space on the edges</li>
+                </ul>
+                <li class="sm">align-content: space-around</li>
+                <ul>
+                  <li>Even space on either side of each row/column (relative to the cross axis)</li>
+                </ul>
+                <li class="sm">align-content: space-evenly</li>
+                <ul>
+                  <li>Exactly the same amount of space around every column/row including between the rows/columns and the sides of the container</li>
+                </ul>
+                <li class="sm">align-content: flex-start</li>
+                <ul>
+                  <li>All row/columns start at the start of the cross axis ()</li>
+                </ul>
+                <li class="sm">align-content: flex-end</li>
+                <ul>
+                  <li>All row/columns start at the end of the cross axis</li>
+                </ul>
+              </ul>
+            
+            
+            
+            </li>
+
+            <li><span class="sm">align-self</span>
+            
+            <ul>
+              <li>Added to individual items within the flex container</li>
+              <li>Aligns items in a container themselves within the cross axis</li>
+            </ul>
+          </li>
+
+
           </ul>
         </p>
 
