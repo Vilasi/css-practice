@@ -7,6 +7,10 @@
     <title>CSS Practice</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -447,13 +451,95 @@
               <li>Aligns items in a container themselves within the cross axis</li>
             </ul>
           </li>
+          
+          <li><span class="sm">flex-basis: ~width</span>
+            <ul>
+            <li>The main axis length measurement of the items within the flex container
+                <ul>
+                  <li>Applied to the items within the container</li>
+                </ul>
+              </li>
+            <li>When <span class="sm">flex-basis: width</span> is applied, the normal width property of the element(s) is ignored.</li>
+            <li>The initial size setting for the items before they're added into the flex container. It may be a width or a height depending on whether the main axis is horizontal or vertical</li>
+            </ul>
+          
+           
+          </li>
+
+          <li><span class="sm">flex-grow:</span>
+            <ul>
+              <li>The rate and ratio that individual items within a flex container will grow relative to other elements</li>
+              <li>Controls the amount of space the element takes up: IF there is available space</li>
+              <li>A max-width will set the maximum amount of space that this element can grow to within the flex container</li>
+              <li>It defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</li>
+            </ul>
+
+          
+          
+          </li>
+
+          <img src="https://i.imgur.com/QYuEQk9.png" alt="flex-grow example">
 
 
+
+          <li id="flex-shrink"><span class="sm">flex-shrink:</span>
+            <ul>
+              <li>The rate and ratio that individual items within a flex container will shrink relative to other elements</li>
+              <ul>
+                <li>Default value is 1</li>
+                <li>it can accept 0 </li>
+              </ul>
+            </ul>
+            
+          
+          </li>
+
+
+
+          <li class="list-style-none"><h3>Flex (Shorthand Property)</h3>
+            <ul>
+              <li>flex: &apos;flex-grow#&apos; &apos;flex-shrink#&apos; &apos;flex-basis: width&apos;;</li>
+            </ul>
+          
+          
+          
+          </li>
           </ul>
         </p>
-
-        
+        <!-- don't ask why the above was container withing a <p> please <3 --> 
       </section>
+
+<!-- ========================================================================== -->
+<!-- ========================================================================== -->
+<!-- ========================================================================== -->
+<!--=                                                                           =-->
+<!--=                                                                             =-->
+<!--                                                                            <--=
+ ---------------------                                                          <--=
+ | Responsive Design |       and media queries and stuff idk damn stop yelling    <--=
+ ---------------------                                                           <--=
+                                                                           <--=
+                                                                             =-->
+<!--=                                                                           =-->
+<!-- ========================================================================== -->
+<!-- ========================================================================== -->
+<!-- ========================================================================== -->
+<!-- God what monstrosity is this above -->
+
+    <section>
+      <h2>Responsive Design & Media Queries</h2>
+      <p class="bold-paragraph">Making a site that can respond to the size of the device one is on.</p>
+
+
+      <h3>Media Queries</h3>
+      
+      <p>"Use this code when the site is X size." "Use that when in landscape mode, etc."</p>
+      
+      <button id="media">MDN Media Queries</button>
+
+    </section>
+
+
     </main>
     
 

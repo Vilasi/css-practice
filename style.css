@@ -1,4 +1,5 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   background-color: #898952;
   font-size: 20px;
@@ -29,13 +30,25 @@ p {
   /* background: red; */
 }
 
+.bold-paragraph {
+  font-weight: bold;
+}
+
 ul li {
   color: #eaeaea;
+}
+
+.list-style-none {
+  list-style: none;
 }
 
 .nested-lists > li {
   margin-bottom: 1rem;
   color: black;
+}
+
+#flex-shrink {
+  padding-top: 1rem;
 }
 
 .sm {

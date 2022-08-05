@@ -20,3 +20,9 @@ mdnDocs.addEventListener('click', () => {
 
 // Saving this for later reference
 console.log(document.querySelector('#google-fonts'));
+
+let media = document.getElementById('media');
+
+media.addEventListener('click', () => {
+  window.open('https://developer.mozilla.org/en-US/docs/Web/CSS/@media');
+});
