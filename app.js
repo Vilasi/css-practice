@@ -1,16 +1,16 @@
 let googleFonts = document.getElementById('google-fonts');
+let cssTricks = document.getElementById('css-tricks');
+let mdnDocs = document.getElementById('mdn-flexbox');
+let media = document.getElementById('media');
+let breakpoints = document.getElementById('breakpoints');
 
 googleFonts.addEventListener('click', () => {
   window.open('https://fonts.google.com/');
 });
 
-let cssTricks = document.getElementById('css-tricks');
-
 cssTricks.addEventListener('click', () => {
   window.open('https://css-tricks.com/guides/');
 });
-
-let mdnDocs = document.getElementById('mdn-flexbox');
 
 mdnDocs.addEventListener('click', () => {
   window.open(
@@ -18,11 +18,15 @@ mdnDocs.addEventListener('click', () => {
   );
 });
 
-// Saving this for later reference
-console.log(document.querySelector('#google-fonts'));
-
-let media = document.getElementById('media');
-
 media.addEventListener('click', () => {
   window.open('https://developer.mozilla.org/en-US/docs/Web/CSS/@media');
 });
+
+breakpoints.addEventListener('click', () => {
+  window.open(
+    'https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/'
+  );
+});
+
+// Saving this for later reference
+console.log(document.querySelector('#google-fonts'));
