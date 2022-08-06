@@ -109,6 +109,7 @@ ul {
   h1 {
     font-size: 6em;
     text-align: center;
+    -webkit-text-stroke: #f8f4e3;
   }
 }
 
