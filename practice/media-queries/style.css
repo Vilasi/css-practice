@@ -17,6 +17,26 @@ nav {
   /* flex-wrap: wrap-reverse; */
   align-items: flex-start;
   justify-content: flex-end;
+  background-color: #3d3d38;
+  background-color: #9a998c;
+  -webkit-box-shadow: 2px 6px 24px 9px rgba(0, 0, 0, 0.57);
+  box-shadow: 2px 6px 24px 9px rgba(0, 0, 0, 0.57);
+}
+
+nav a,
+nav li {
+  padding-top: 1rem;
+  margin-left: 1rem;
+  -webkit-padding-start: 0;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+ul li {
+  margin-left: 0;
+}
+
+nav a:nth-of-type(2) {
+  padding-bottom: 1em;
 }
 
 ul,
