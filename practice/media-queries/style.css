@@ -14,14 +14,13 @@ nav {
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
-  /* align-content: space-around; */
-  /* flex-wrap: wrap-reverse; */
   align-items: flex-start;
   justify-content: flex-end;
   background-color: #3d3d38;
   background-color: #9a998c;
   -webkit-box-shadow: 2px 6px 24px 9px rgba(0, 0, 0, 0.57);
   box-shadow: 2px 6px 24px 9px rgba(0, 0, 0, 0.57);
+  max-width: 100%;
 }
 
 nav a,
@@ -43,10 +42,8 @@ nav a:nth-of-type(2) {
 ul,
 li {
   list-style: none;
-  /* margin: 0; */
-  padding: 0;
 
-  /* font-size: 1.5rem; */
+  padding: 0;
 }
 li {
   margin: 0.5rem 0 0.5rem 0;
@@ -56,15 +53,15 @@ ul {
   margin: 0.05rem 0 0.05rem 0;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 912px) {
   nav {
-    font-size: 1.5em;
+    font-size: 1.3em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-content: center;
     gap: 0.6rem;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
+
     background-color: #3d3d38;
     background-color: #9a998c;
     -webkit-box-shadow: 2px 6px 24px 9px rgba(0, 0, 0, 0.57);
@@ -84,27 +81,18 @@ ul {
     top: 5px;
   }
 
-  nav a:nth-of-type(1) {
-    padding: 1em 0;
-  }
-  nav a:nth-of-type(2) {
-    padding: 1em 0;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    flex-basis: 35%;
   }
 
   ul,
   li {
-    display: inline;
     margin: 0;
     padding: 0;
-  }
-
-  ul li:nth-child(2) {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-  }
-
-  ul {
-    padding: 1em 0;
   }
 
   h1 {
@@ -113,72 +101,3 @@ ul {
     -webkit-text-stroke: #f8f4e3;
   }
 }
-
-/* This means exactly when the width=800px the color is purple lol */
-/* @media (width: 800px) {
-  h1 {
-    color: purple;
-  }
-} */
-
-/* The minimum width that the screen viewport can be for these effects to take place */
-/* Use these to style  */
-/* @media (min-width: 800px) and (max-width: 1000px) {
-  h1 {
-    color: purple;
-  }
-} */
-
-/* When using max-width - you must put the smaller max-width rules lower down in the cascade */
-/* Like The Below Example */
-/* @media (max-width: 1000px) {
-  h1 {
-    color: red;
-  }
-}
-
-@media (max-width: 500px) {
-  h1 {
-    color: orange;
-  }
-} */
-
-/* This is a pretty good (general) way to build a mobile-first responsive site. */
-/* h1 {
-  color: red;
-}
-
-@media (min-width: 500px) {
-  h1 {
-    color: orange;
-  }
-}
-
-@media (min-width: 1000px) {
-  h1 {
-    color: yellow;
-  }
-}
-
-@media (min-width: 1200px) {
-  h1 {
-    color: green;
-  }
-}
-
-@media (min-width: 1400px) {
-  h1 {
-    color: blue;
-  }
-}
-
-@media (min-width: 1600px) {
-  h1 {
-    color: indigo;
-  }
-}
-@media (min-width: 1800px) {
-  h1 {
-    color: violet;
-  }
-} */
