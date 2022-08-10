@@ -48,7 +48,9 @@ ul li {
 }
 
 .useful-links-list li a {
+  font-weight: bold;
   color: #330e25;
+  text-decoration: none;
 }
 .useful-links-list li a:hover {
   color: #aca7a7;
