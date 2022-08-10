@@ -38,10 +38,25 @@ ul li {
   color: #eaeaea;
 }
 
-.list-style-none {
+.useful-links {
   list-style: none;
 }
 
+.useful-links-list li {
+  list-style: none;
+  margin: 2rem auto;
+}
+
+.useful-links-list li a {
+  color: #330e25;
+}
+.useful-links-list li a:hover {
+  color: #aca7a7;
+}
+.useful-links-list li a:active {
+  position: relative;
+  top: 2px;
+}
 .nested-lists > li {
   margin-bottom: 1rem;
   color: black;
